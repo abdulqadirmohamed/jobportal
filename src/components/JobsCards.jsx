@@ -9,7 +9,7 @@ const JobsCards = ({ title, image, location, posted }) => {
           <div className="flex gap-3">
             <img className="w-10 h-10 rounded-md" src={image} alt="" />
             <div>
-              <h1 className="text-[15px] font-bold text-[#5650E8]">{title}</h1>
+              <h1 className="text-[15px] font-bold text-gray-800">{title}</h1>
               <div className="divive-x-2 divide-red-600">
                 <span className="text-gray-500 text-[13px]">Gojek</span>
                 <span className="ml-4 bg-[#FFF2E6] text-[#ff8d4b] text-[13px] text-sm font-medium px-2 rounded-full">

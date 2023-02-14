@@ -2,14 +2,15 @@ import React from "react";
 import FilterData from "./FilterData";
 import Jobs from "./Jobs";
 import Search from "./Search";
+import Sidebar from "./Sidebar";
 
 const Home = () => {
   return (
     <div className="bg-white">
-      <div className="w-[80%] mx-auto py-5 grid grid-cols-4 gap-4">
+      <div className="w-[80%] mx-auto py-5 grid grid-cols-4 gap-4 relative">
         {/* Side */}
         <div className="col-span-1 border-2 border-gray-100 p-4 rounded-md">
-          <FilterData/>
+          <Sidebar/>
         </div>
         {/* Body */}
         <div className="col-span-3 w-full">
