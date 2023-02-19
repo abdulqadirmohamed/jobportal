@@ -5,7 +5,7 @@ const FilterData = () => {
     <div>
       <div className="flex justify-between m-2">
         <h4>Filter</h4>
-        <h4>Clear All</h4>
+        <button>Clear</button>
       </div>
       <hr />
       <div className="my-6">

@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const JobsCards = ({ title, image, location, posted }) => {
   return (
     <div>
       <div className="border-2 border-gray-100 p-6 rounded-md shadow-sm my-4">
+        <Link to={title}>
         {/* Header */}
         <div className="flex justify-between gap-2">
           <div className="flex gap-3">
@@ -46,6 +48,7 @@ const JobsCards = ({ title, image, location, posted }) => {
             molestiae.
           </p>
         </div>
+        </Link>
       </div>
     </div>
   );
